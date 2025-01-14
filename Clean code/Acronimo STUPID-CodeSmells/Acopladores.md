@@ -1,4 +1,4 @@
-ATodos los olores de este grupo contribuyen al acoplamiento excesivo entre clases o muestra lo que sucede si el acoplamiento se reemplaza por una delegación excesiva. 
+Todos los olores de este grupo contribuyen al acoplamiento excesivo entre clases o muestra lo que sucede si el acoplamiento se reemplaza por una delegación excesiva. 
 
 * ***Feature Envy**: Casi toda la funcionalidad de la clase lo hace otra clase ajena a la propia, Si las cosas cambian al mismo tiempo debes de mantenerlas en el mismo lugar, en pocas palabras cuando un método función o modulo hace mucha referencia de otro modulo, quizás esta factorización no es tan buena y se debe de colocar en el otro lugar. ![[Pasted image 20250111042814.png]]
 * **Intimidad inapropiada**: Cuando una clase usa campos internos de otra clase, si una clase pasa mucho tiempo con otras clases podría necesitar una refactorización y hacerlas independientes. *Las buenas clases deben de saber lo menos de otras clases* ya que son mas fácil de mantener y de usar.![[Pasted image 20250111043047.png]]
