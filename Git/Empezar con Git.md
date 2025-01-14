@@ -1,6 +1,6 @@
 ### Software de Control de Versiones
 
-Es un sistema de control de versiones distribuido que permite gestionar y rastrear los cambios en archivos y coordinar el trabajo entre múltiples personas. Es ampliamente utilizado para proyectos de desarrollo de software.
+A Es un sistema de control de versiones distribuido que permite gestionar y rastrear los cambios en archivos y coordinar el trabajo entre múltiples personas. Es ampliamente utilizado para proyectos de desarrollo de software.
 ### Inicialización:
 
 - `git init`: Inicia un nuevo repositorio Git en el directorio actual.
