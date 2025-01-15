@@ -11,10 +11,14 @@
             "id": "6643c633a583b8f5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "remote/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -107,11 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "remote/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Enlaces salientes de README"
             }
           },
           {
@@ -132,9 +137,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "remote/README.md"
+              },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de README"
             }
           },
           {
@@ -165,15 +172,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbcb8b8973b76349",
+  "active": "6643c633a583b8f5",
   "lastOpenFiles": [
+    "README.md",
+    "remote/README.md",
+    "conflict-files-obsidian-git.md",
+    "remote/Clean code 1/Acronimo STUPID-CodeSmells/Duplication.md",
+    "remote/Clean code 1/Acronimo STUPID-CodeSmells",
+    "remote/Clean code 1",
     "remote/Docker/docker-cheat-sheet.pdf",
     "remote/Docker/Docker.md",
     "remote/Docker/Conceptos generales Docker.md",
     "remote/Docker/Comandos Docker.md",
     "remote/Docker/img/Pasted image 20250112191752.png",
     "remote/Git/Comandos/Actualizaciones git.md",
-    "remote/README.md",
     "remote/Git/img/Pasted image 20241231011833.png",
     "remote/Git/Comandos/Pasted image 20250110163404.png",
     "remote/Git/Comandos/git tag.md",
@@ -206,12 +218,8 @@
     "remote/Clean code/Acronimo STUPID-CodeSmells/Nombres según el tipo de dato/Reglas para definir nombres de clases.md",
     "remote/Clean code/Principios SOLID/SPR-Principio de responsabilidad única.md",
     "remote/Clean code/Principios SOLID/Principios de SOLID.md",
-    "remote/Clean code/Principios SOLID/OCP- Principio de abierto y cerrado.md",
-    "remote/Clean code/Principios SOLID/LSP-Principio de sustitución de Liskov.md",
     "remote/Clean code/img/code-smells",
     "remote/Clean code/Acronimo STUPID-CodeSmells/Nombres según el tipo de dato",
-    "remote/Clean code/Principios SOLID",
-    "remote/Clean code/img",
     "Sin título 1.canvas",
     "Sin título.canvas",
     "Sin título 2.canvas"
