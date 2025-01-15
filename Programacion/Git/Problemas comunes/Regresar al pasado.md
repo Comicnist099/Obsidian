@@ -14,6 +14,6 @@ git reset --soft <commit-hash>
 ```
         
 3. **Hacer un push al repositorio remoto:** Si usaste `git reset --hard`, tendrás que forzar el push porque el historial remoto ya no coincidirá con tu historial local:
-	```powershell
+```powershell
 git push origin <branch-name> --force
-	```    
+```    
