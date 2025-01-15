@@ -11,14 +11,14 @@
             "id": "6643c633a583b8f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "remote/README.md",
-                "mode": "source",
-                "source": false
+                "aFile": "remote",
+                "bFile": "remote",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "diff",
+              "title": "Diff: remote"
             }
           }
         ]
@@ -111,12 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "remote/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de README"
+              "title": "Enlaces salientes"
             }
           },
           {
@@ -137,11 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "remote/README.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Esquema de README"
+              "title": "Esquema"
             }
           },
           {
@@ -174,8 +171,8 @@
   },
   "active": "6643c633a583b8f5",
   "lastOpenFiles": [
-    "README.md",
     "remote/README.md",
+    "README.md",
     "conflict-files-obsidian-git.md",
     "remote/Clean code 1/Acronimo STUPID-CodeSmells/Duplication.md",
     "remote/Clean code 1/Acronimo STUPID-CodeSmells",
