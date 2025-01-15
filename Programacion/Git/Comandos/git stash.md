@@ -1,20 +1,39 @@
-##### *Descripción*:
+## **Git con `git stash`**
 Permite guardar temporalmente los cambios que has realizado en el repositorio sin comprometerlos en un commit.
-##### Lista de Comandos:
-- `git stash`: Guarda los cambios actuales sin realizar un commit.
-    
-- `git stash list`: Muestra la lista de _stashes_ almacenados.
-    
-- `git stash apply <stashNombre>`: Aplica los cambios de un stash específico.
-    
-- `git stash pop`: Aplica el último stash y lo elimina de la lista.
-    
-- `git stash clear`: Elimina todos los _stashes_.
-    
-- `git stash drop <stashNombre>`: Elimina un stash específico.
-    
-- `git stash show <stashNombre>`: Muestra los detalles de un stash.
-    
-- `git stash save "<descripción>`: Agrega una descripción a un nuevo stash.
-    
-- `git stash list --stat`: Muestra detalles adicionales de los stashes almacenados.
+### Lista de Comandos:
+* **Guarda los cambios actuales sin realizar un commit:**
+```powershell
+git stash
+```
+* **Muestra la lista de _stashes_ almacenados:**
+```powershell
+git stash list
+```
+* **Aplica los cambios de un stash específico:**
+```powershell
+git stash apply <stashNombre>
+```
+* **Aplica el último stash y lo elimina de la lista:**
+```powershell
+git stash pop
+```
+* **Elimina todos los _stashes_:**
+```powershell
+git stash clear
+```
+* **Elimina un stash específico:**
+```powershell
+git stash drop <stashNombre>
+```
+* **Muestra los detalles de un stash:**
+```powershell
+git stash show <stashNombre> 
+```
+* **Agrega una descripción a un nuevo stash:**
+```powershell
+git stash save "<descripción>"
+```
+* **Muestra detalles adicionales de los stashes almacenados:**
+```powershell
+git stash list --stat
+```

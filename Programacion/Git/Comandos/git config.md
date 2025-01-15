@@ -1,4 +1,4 @@
-## **Configuración de Git con `git config`**
+## **Git con `git config`**
 
 Con **`git config`**, puedes ajustar configuraciones globales o locales para personalizar Git a tu gusto.
 

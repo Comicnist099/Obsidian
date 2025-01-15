@@ -1,4 +1,4 @@
-## **Configuración de Git con `git branch`**
+## **Git con `git branch`**
 Se utiliza para trabajar con las ramas (branches) en un repositorio Git. Las ramas son una característica fundamental en Git que permiten trabajar de manera independiente en diferentes versiones del proyecto.
 ### Lista de Comandos:
 * **Restablece todos los archivos al último estado registrado:**:

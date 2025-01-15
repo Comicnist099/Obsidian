@@ -1,4 +1,4 @@
-## **Configuración de Git con `git add`**
+## **Git con `git add`**
 Se utiliza para agregar archivos al área de **_stage_** en Git, lo que significa que prepara los archivos para ser incluidos en el siguiente commit.
 ### Lista de Comandos:
 - **Agrega archivos específicos al área de _stage_:**

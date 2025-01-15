@@ -1,18 +1,18 @@
-* ***Docker**: es una herramienta diseñada para facilitar la creación, implementación y ejecución de aplicaciones mediante el uso de contenedores.
+* **Docker**: Es una herramienta diseñada para facilitar la creación, implementación y ejecución de aplicaciones mediante el uso de contenedores.
 
 - **Container-Contenedor**:Es una instancia de una imagen ejecutándose en un ambiente aislado.
 
 * **Image-Image de contenedor**:Es un archivo construido por capas que contiene todas las dependencias para ejecutarse, tal como: las dependencias, configuraciones, scripts, archivos binarios, etc.
 
-* *Dockerizar una aplicación**:Proceso de tomar un código fuente y generar una imagen lista para montar y correrla en un contenedor.
+* **Dockerizar una aplicación**:Proceso de tomar un código fuente y generar una imagen lista para montar y correrla en un contenedor.
 
-* *Dockerfile**:Un archivo de texto con instrucciones necesarias para crear una imagen. Se puede ver como un blueprint o plano para su construcción.
+* **Dockerfile**:Un archivo de texto con instrucciones necesarias para crear una imagen. Se puede ver como un blueprint o plano para su construcción.
  
 * **.dockerignore (Archivo)**: Similar al .gitignore el .dockerignore especifica todo lo que hay que ignorar en un proceso de construcción (build).
 
-* *docker-compose.yml**: Archivo para definir los servicios y con un solo comando en lugar de definir todo directamente en la consola.
+* **docker-compose.yml**: Archivo para definir los servicios y con un solo comando en lugar de definir todo directamente en la consola.
 
-* *Volumes- Volúmenes**: Proporciona la cantidad de conectar rutas especificas del sistema de archivos del contenedor a la maquina host.
+* **Volumes- Volúmenes**: Proporciona la cantidad de conectar rutas especificas del sistema de archivos del contenedor a la maquina host.
 
 * **Alpine-Linux**: Alpine Linux es una distribución de Linux ligera y orientada a la seguridad basada en el musi libc y busybox.
 
@@ -26,4 +26,4 @@
 
 * **Registry - Registro**: Es una aplicación de lado del servidor altamente escalable y sin estado que almacena y le permite distribuir imágenes de Docker.
 
-* **Docker Deamon**: Es el servicio en segundo plano que se ejecuta en el host que administra la creación, ejecución y distribución de contenedores Docker.
+* **Docker Daemon**: Es el servicio en segundo plano que se ejecuta en el host que administra la creación, ejecución y distribución de contenedores Docker.

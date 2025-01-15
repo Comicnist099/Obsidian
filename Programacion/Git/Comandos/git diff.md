@@ -1,4 +1,4 @@
-## **Configuración de Git con `git diff`**:
+## **Git con `git diff`**
 Se utiliza para mostrar las diferencias entre los archivos de tu repositorio en comparación con el estado actual, el área de _stage_ o entre diferentes commits.
 
 ---
