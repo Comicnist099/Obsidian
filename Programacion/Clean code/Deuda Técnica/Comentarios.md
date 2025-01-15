@@ -1,6 +1,5 @@
 Es horrible leer el Código de otras personas
 
-
 ![[Pasted image 20250110163721.png]]
 Evitar el uso de comentarios, pero...
 
@@ -9,7 +8,7 @@ Evitar el uso de comentarios, pero...
 ### Los comentarios deberían de ser la excepción no la regla 
 
 *"No comentes el código mal escrito, rescríbelo"*
-**-Brian W. Kernighan**
+**-Brian W. Kernighan** <sup>[[Frases en programación|9]]</sup>
 
 ### Recuerda:
 Nuestro código debe de ser suficientemente auto explicativo

@@ -11,13 +11,3 @@ Los **5 principios S.O.L.I.D.** de diseño de software son:
 - I – Interface Segregation Principle [[ISP- Principio de segregación de la interfaz]]
     
 - D – Dependency Inversion Principle  [[DIP- Principio de inversion de dependencias]]
-
-
-
-
-
-
-
-
-
-
