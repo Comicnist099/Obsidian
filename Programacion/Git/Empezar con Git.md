@@ -19,6 +19,7 @@ Es un sistema de control de versiones distribuido que permite gestionar y rastre
 - ##### [[git tag]]
 - ##### [[Actualizaciones git]]
 
+### [[Problemas comunes Git]]
 ### Extras:
 - **Mejorar workflow** :
 	- https://blog.mergify.com/understanding-the-github-pull-request-workflow/
