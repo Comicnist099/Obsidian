@@ -1,5 +1,7 @@
 ## **Git con `git log`**
 Se utiliza para ver el historial de commits en un repositorio Git.
+
+---
 ### Lista de Comandos:
 - **Muestra el historial de commits:**
 ```powershell

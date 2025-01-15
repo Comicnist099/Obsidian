@@ -1,5 +1,7 @@
 ## **Git con `git reset`**
 Se utiliza para deshacer cambios en el repositorio de diferentes maneras. Dependiendo de los parámetros que se utilicen, **`git reset`** puede afectar el área de _stage_, los commits, o incluso el directorio de trabajo.
+
+---
 ### Lista de Comandos:
 * **Remueve un archivo del área de stage.**
 ```powershell

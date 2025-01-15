@@ -1,5 +1,7 @@
 ## **Git con `git tag`**
 Se utiliza para crear, listar, eliminar y administrar _tags_ en un repositorio Git. Los _tags_ son referencias que apuntan a un commit específico y se usan, generalmente, para marcar puntos importantes en la historia del repositorio, como versiones de software.
+
+---
 ### Lista de Comandos:
 * **Crea un tag en el commit actual:**
 ```powershell

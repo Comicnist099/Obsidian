@@ -1,5 +1,7 @@
 ## **Git con `git config --global alias`**
 Son comandos personalizados que puedes crear para simplificar o abreviar las secuencias de comandos que usas con frecuencia. En lugar de escribir un comando largo y complejo, puedes definir un alias más corto y fácil de recordar.
+
+---
 ### Lista de Comandos:
 - **Mejor manera de ver los logs el comando ahora es `git lg`:**
  ```powershell

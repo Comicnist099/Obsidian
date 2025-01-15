@@ -1,5 +1,7 @@
 ## **Git con `git stash`**
 Permite guardar temporalmente los cambios que has realizado en el repositorio sin comprometerlos en un commit.
+
+---
 ### Lista de Comandos:
 * **Guarda los cambios actuales sin realizar un commit:**
 ```powershell

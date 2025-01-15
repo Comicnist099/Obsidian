@@ -1,5 +1,7 @@
 ## **Git con `git log`**
 Reorganiza los commits de una rama para aplicarlos sobre otra base, reescribiendo su historial.
+
+---
 ### Lista de Comandos:
 - **Reorganiza los commits de la rama actual en la parte superior de la rama `master`:**
 ```powershell
