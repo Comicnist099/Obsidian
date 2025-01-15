@@ -3,7 +3,7 @@
 Con **`git config`**, puedes ajustar configuraciones globales o locales para personalizar Git a tu gusto.
 
 ---
-### Comandos útiles
+### Lista de comandos
 - **Editar configuraciones globales**
     ```
     git config --global -e

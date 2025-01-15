@@ -9,5 +9,5 @@ Reorganiza los commits de una rama para aplicarlos sobre otra base, reescribiend
     - Presionar `ESC` y escribir `:q!` para salir sin guardar cambios. y `:wq!` es para guardar los cambios y salir
 
 	Al realizar el rebase se podra ver de esta forma 
-	![[Pasted image 20241231011833.png]]
+	![[01-Visualizacion git rebase.png]]
     
