@@ -167,6 +167,7 @@
   },
   "active": "f373179b03be7d9c",
   "lastOpenFiles": [
+    "remote",
     "README.md",
     "Git/img/Pasted image 20241231011833.png",
     "Git/Comandos/Pasted image 20250110163404.png",
@@ -209,7 +210,6 @@
     "Clean code/Principios SOLID/Principios de SOLID.md",
     "Clean code/Principios SOLID/LSP-Principio de sustitución de Liskov.md",
     "Clean code/Principios SOLID/OCP- Principio de abierto y cerrado.md",
-    "Clean code/Principios SOLID/ISP- Principio de segregación de la interfaz.md",
     "Clean code/Acronimo STUPID-CodeSmells/Nombres según el tipo de dato",
     "Clean code/img",
     "Clean code/Principios SOLID",
