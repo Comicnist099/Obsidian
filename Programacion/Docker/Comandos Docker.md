@@ -1,6 +1,13 @@
 ### Container
 
-* `docker container ls` o `docker container ps`:  Permite ver los contenedores activos.
+*  **Permite ver los contenedores activos:**
+```powershell
+docker container ls
+```
+	ó
+```powershell
+docker container ps
+```
 * `docker container ls -a`: Permite ver todos los contenedores.
 * `docker container prune`: Elimina todos los contenedores que no están ejecutados.
 * `docker container rm <idContainer>`:Elimina contenedores específicos.
