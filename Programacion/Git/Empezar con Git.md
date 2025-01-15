@@ -17,7 +17,7 @@ Es un sistema de control de versiones distribuido que permite gestionar y rastre
 - ##### [[git rebase]]
 - ##### [[git stash]]
 - ##### [[git tag]]
-- ##### [[Actualizaciones git]]
+- ##### [[git pull y git fetch]]
 
 ### [[Problemas comunes Git]]
 ### Extras:

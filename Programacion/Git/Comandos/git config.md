@@ -1,22 +1,38 @@
-##### *Descripción*:
-Se utiliza para configurar opciones y preferencias en Git. A través de **`git config`**, puedes ajustar configuraciones globales o locales 
-##### Lista de Comandos:
+## **Configuración de Git con `git config`**
 
-- `git config --global -e`: Ver y editar configuraciones globales de Git.
-    - Presionar `a` para editar configuraciones.  
-        
-    - Presionar `ESC` y escribir `:q!` para salir sin guardar cambios. y `:wq!` es para guardar los cambios y salir  
-        
-- `git config --global pull.ff only`: Configura `git pull` para permitir solo actualizaciones de tipo _fast-forward_.  
-    
-- `git config --global pull.rebase true`: Habilita el modo _rebase_ automáticamente cuando ocurre un conflicto.  
-    
-- `git config --list --show-origin`: Muestra las configuraciones activas y sus ubicaciones de origen.  
-    
-- `git config --global init.defaultBranch <nombre>`: Cambia el nombre por defecto de la rama principal, por ejemplo, de `master` a `main`.  
-    
-- `git config core.autocrlf true`: Elimina las advertencias relacionadas con saltos de línea (_CRLF_).  
-    
-- `git config --global alias.<alias> <"command">`: Crea un alias para un comando de Git.
+Con **`git config`**, puedes ajustar configuraciones globales o locales para personalizar Git a tu gusto.
 
-Consulta [[Alias git]] para mas configuraciones.
+---
+### Comandos útiles
+- **Editar configuraciones globales**
+    ```
+    git config --global -e
+    ```
+    Presiona `a` para editar. Usa:
+    - `:q!` para salir sin guardar.
+    - `:wq!` para guardar y salir.
+- **Configurar `git pull` para solo actualizaciones _fast-forward_:**
+	```powershell
+	git config --global pull.ff only
+	```
+- **Habilitar rebase automático en conflictos:**
+	```powershell
+	git config --global pull.rebase true
+	```
+- **Mostrar configuraciones activas y sus ubicaciones:**
+	```powershell
+	git config --list --show-origin
+	```
+- **Cambiar el nombre predeterminado de la rama principal:**
+	```powershell
+	git config --global init.defaultBranch <nombre>
+	```
+- **Eliminar advertencias de saltos de línea (_CRLF_):**
+	```powershell
+	git config core.autocrlf true
+	```
+- **Crear un alias para un comando de Git:**
+	```powershell
+	git config --global alias.<alias> <"command">
+	```
+#### Para mas información referente a alias consultar [[Alias git]]
