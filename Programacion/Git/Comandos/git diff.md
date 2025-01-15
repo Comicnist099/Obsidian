@@ -15,7 +15,7 @@ git diff --staged
 ```powershell
 git diff <commit1> <commit2>
 ```
- * Muestra las diferencias entre dos ramas.
+ * **Muestra las diferencias entre dos ramas:**
  ```powershell
  git diff <rama1> <rama2>
  ```
