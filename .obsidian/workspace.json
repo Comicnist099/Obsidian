@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "250d5983741001ff",
+        "id": "3d4ec296a59adfc9",
         "type": "tabs",
         "children": [
           {
-            "id": "f876101f011de1e6",
+            "id": "6643c633a583b8f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clean code/Deuda Técnica/Principio Dry.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Principio Dry"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -77,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 258.5
   },
   "right": {
     "id": "d4e672223d127665",
@@ -111,12 +107,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clean code/Deuda Técnica/Principio Dry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Principio Dry"
+              "title": "Enlaces salientes"
             }
           },
           {
@@ -141,9 +136,19 @@
               "icon": "lucide-list",
               "title": "Esquema"
             }
+          },
+          {
+            "id": "2c383c69f107f226",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -156,59 +161,60 @@
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f373179b03be7d9c",
+  "active": "6643c633a583b8f5",
   "lastOpenFiles": [
     "README.md",
-    "Clean code/Principios SOLID/Principios de SOLID.md",
-    "Clean code/Principios SOLID/DIP- Principio de inversion de dependencias.md",
-    "Clean code/Principios SOLID/ISP- Principio de segregación de la interfaz.md",
-    "Clean code/Principios SOLID/LSP-Principio de sustitución de Liskov.md",
-    "Git/Comandos/git tag.md",
-    "Clean code/Principios SOLID/OCP- Principio de abierto y cerrado.md",
-    "Clean code/Principios SOLID/SPR-Principio de responsabilidad única.md",
-    "Clean code/Acronimo STUPID-CodeSmells/Acrónimo STUPID.md",
-    "Clean code/Acronimo STUPID-CodeSmells/Otros Code Smells.md",
-    "Clean code/Acronimo STUPID-CodeSmells/Acopladores.md",
-    "Clean code/Acronimo STUPID-CodeSmells/Duplication.md",
-    "Clean code/Acronimo STUPID-CodeSmells/Indescriptible Naming.md",
-    "Clean code/Acronimo STUPID-CodeSmells/Premature optimization.md",
-    "Clean code/Acronimo STUPID-CodeSmells/Untestability.md",
-    "Clean code/Acronimo STUPID-CodeSmells/Tight.md",
-    "Clean code/Acronimo STUPID-CodeSmells/Singleton.md",
-    "Clean code/Deuda Técnica/Formas de pagar la deuda técnica.md",
-    "Clean code/Deuda Técnica/Uniformidad en el proyecto.md",
-    "Clean code/Deuda Técnica/Comentarios.md",
-    "Clean code/Deuda Técnica/Estructura de clases.md",
-    "Clean code/Deuda Técnica/Deuda Técnica.md",
-    "Clean code/Deuda Técnica/Principio Dry.md",
-    "Docker/Comandos Docker.md",
-    "Docker/Docker.md",
-    "Docker/Conceptos generales Docker.md",
-    "Docker/img/Pasted image 20250112192521.png",
-    "Docker/docker-cheat-sheet.pdf",
-    "Docker/img",
-    "Docker/img/Pasted image 20250112191752.png",
-    "Docker",
-    "Sin título 1.canvas",
-    "Clean code/img/Pasted image 20250112045453.png",
-    "Clean code/img/Pasted image 20250111221257.png",
-    "Clean code/img/Pasted image 20250111221223.png",
-    "Sin título.canvas",
     "Git/img/Pasted image 20241231011833.png",
-    "Sin título 2.canvas",
-    "Clean code/Principios SOLID",
-    "Clean code/img/code-smells/Pasted image 20250111043556.png",
+    "Git/Comandos/git tag.md",
+    "Git/Comandos/Pasted image 20250110163404.png",
+    "Git/Comandos/git status.md",
+    "Git/Comandos/git stash.md",
+    "Git/Comandos/git reset.md",
+    "Git/Comandos/git rebase.md",
+    "Git/Comandos/git log.md",
+    "Git/Comandos/git diff.md",
+    "Git/Comandos/git config.md",
+    "Git/Comandos/git commit.md",
+    "Git/Comandos/git branch.md",
+    "Git/Comandos/Alias git.md",
+    "Git/Comandos/git add.md",
+    "Git/Comandos/Actualizaciones git.md",
+    "Git/img",
+    "Git/Empezar con Git.md",
+    "Git/Comandos",
+    "Git",
+    "Docker/img/Pasted image 20250112192521.png",
+    "Docker/img/Pasted image 20250112191752.png",
+    "Docker/img",
+    "Docker/Docker.md",
+    "Docker/docker-cheat-sheet.pdf",
+    "Docker/Conceptos generales Docker.md",
+    "Docker/Comandos Docker.md",
+    "Docker",
     "Clean code/img/code-smells/Pasted image 20250111043416.png",
+    "Clean code/img/code-smells/Pasted image 20250111043556.png",
     "Clean code/img/code-smells/Pasted image 20250111043047.png",
     "Clean code/img/code-smells/Pasted image 20250111042814.png",
+    "Clean code/img/code-smells/Pasted image 20250111042257.png",
+    "Clean code/img/code-smells/Pasted image 20250111041844.png",
     "Clean code/img/code-smells",
-    "Clean code/Acronimo STUPID-CodeSmells",
+    "Clean code/Acronimo STUPID-CodeSmells/Nombres según el tipo de dato/Reglas para definir nombres de variables.md",
+    "Clean code/Acronimo STUPID-CodeSmells/Nombres según el tipo de dato/Reglas para definir nombres de funciones.md",
+    "Clean code/Acronimo STUPID-CodeSmells/Nombres según el tipo de dato/Reglas para definir nombres de clases.md",
+    "Clean code/Principios SOLID/SPR-Principio de responsabilidad única.md",
+    "Clean code/Principios SOLID/Principios de SOLID.md",
+    "Clean code/Principios SOLID/OCP- Principio de abierto y cerrado.md",
+    "Clean code/Principios SOLID/LSP-Principio de sustitución de Liskov.md",
+    "Clean code/Principios SOLID/ISP- Principio de segregación de la interfaz.md",
+    "Clean code/Acronimo STUPID-CodeSmells/Nombres según el tipo de dato",
+    "Clean code/Principios SOLID",
     "Clean code/img",
-    "Clean code/__MACOSX/Clean code/Deuda Técnica/¿Cómo se paga la deuda técnica_",
-    "Clean code/__MACOSX/Clean code/Deuda Técnica/¿Qué es la deuda técnica_",
-    "Clean code/__MACOSX/Clean code/Deuda Técnica/Nombres según el tipo de dato"
+    "Sin título 1.canvas",
+    "Sin título.canvas",
+    "Sin título 2.canvas"
   ]
 }
