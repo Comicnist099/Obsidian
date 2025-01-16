@@ -7,7 +7,7 @@ La importancia de _SPR_ radica en su capacidad para mantener el código limpio y
 
 ---
 ### Relación con otros principios SOLID
-el _SPR_ esta estrechamente relacionado con otros principios como el [[01-LSP-Principio de sustitución de Liskov]] como también [[ISP- Principio de segregación de la interfaz]]. Estos principios trabajan en conjunto para crear un código limpio y eficiente.
+el _SPR_ esta estrechamente relacionado con otros principios como el [[01-LSP-Liskov Substitution Principle]] como también [[01-ISP- Interface Segregation Principle]]. Estos principios trabajan en conjunto para crear un código limpio y eficiente.
 
 ---
 ### Como detectar violaciones de responsabilidad única

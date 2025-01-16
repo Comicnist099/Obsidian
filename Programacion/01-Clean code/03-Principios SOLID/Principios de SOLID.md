@@ -2,12 +2,12 @@ Los principios de SOLID nos indican como organizar nuestras funciones y estructu
 
 Los **5 principios S.O.L.I.D.** de diseño de software son:
 
-- S – Single Responsibility Principle [[01-SPR-Principio de responsabilidad única]]
+- S – [[01-SPR-Single Responsibility Principle| Single Responsibility Principle]]
     
-- O – Open/Closed Principle [[01-OCP- Principio de abierto y cerrado]]
+- O –  [[01-OCP-Open Closed Principle|OCP-Open Closed Principle]]
     
-- L – Liskov Substitution Principle [[01-LSP-Principio de sustitución de Liskov]]
+- L –  [[01-LSP-Liskov Substitution Principle|Liskov Substitution Principle]]
     
-- I – Interface Segregation Principle [[ISP- Principio de segregación de la interfaz]]
+- I –  [[01-ISP- Interface Segregation Principle|Interface Segregation Principle]]
     
-- D – Dependency Inversion Principle  [[DIP- Principio de inversion de dependencias]]
+- D – [[01-DIP- Dependency Inversion Principle|Dependency Inversion Principle]]

@@ -2,7 +2,6 @@
 1. En esta situación tenemos una clase la cual se encarga principalmente del comportamiento de las llamadas.
 ```ts
 //01-HttpClient.ts
-
 import axios from "axios";
 
 export class HttpClient {

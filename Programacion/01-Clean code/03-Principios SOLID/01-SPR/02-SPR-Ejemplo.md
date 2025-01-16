@@ -2,7 +2,6 @@
 1. En esta situación tenemos una clase donde abarca ciertos comportamientos en sus funciones lo cual no es terrible solo que hay una manera de mejorarlo debido a que vemos que la clase esta haciendo muchas tareas que la están sobrecargando haciéndola menos legible.
 ```ts
 (() => {
-
     interface Product { 
         id:   number;
         name: string;
@@ -32,7 +31,6 @@
 2. La solución a esto es partir la clase en varios comportamientos diferentes para que así cada cosa tenga su propia lógica, como por ejemplo  `class ProductBloc` del ejemplo anterior tenia varias funcionalidades una de ellas es enviar correos en la clase `notifyClients()` y otra es añadir elementos al carrito `onAddToCart()` , cosas que ya viene siendo algo ajeno a la idea de un `ProductBloc`.
 ```ts
 (() => {
-
   interface Product {
     id: number;
     name: string;
@@ -93,4 +91,4 @@
 
 })();
 ```
-3. Así que la solución fue hacer que la función `notifyClients()` tenga su propia clase correspondiente a correos creando `class Mailer`, crear otra clase `class CartBloc` además de crear un espacio también especifico para el producto ya que `ProductBloc` ahora solo tendría la funcionalidad de llamar otros procesos con la tranquilidad que cada funcionalidad tiene su espacio de modificación sin afectar alguna otra clase, inconscientemente se uso el concepto [[01-OCP- Principio de abierto y cerrado]].
+3. Así que la solución fue hacer que la función `notifyClients()` tenga su propia clase correspondiente a correos creando `class Mailer`, crear otra clase `class CartBloc` además de crear un espacio también especifico para el producto ya que `ProductBloc` ahora solo tendría la funcionalidad de llamar otros procesos con la tranquilidad que cada funcionalidad tiene su espacio de modificación sin afectar alguna otra clase, inconscientemente se uso el concepto [[01-OCP-Open Closed Principle]].
