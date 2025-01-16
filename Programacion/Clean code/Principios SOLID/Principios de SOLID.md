@@ -2,9 +2,9 @@ Los principios de SOLID nos indican como organizar nuestras funciones y estructu
 
 Los **5 principios S.O.L.I.D.** de diseño de software son:
 
-- S – Single Responsibility Principle [[SPR-Principio de responsabilidad única]]
+- S – Single Responsibility Principle [[01-SPR-Principio de responsabilidad única]]
     
-- O – Open/Closed Principle [[OCP- Principio de abierto y cerrado]]
+- O – Open/Closed Principle [[01-OCP- Principio de abierto y cerrado]]
     
 - L – Liskov Substitution Principle [[LSP-Principio de sustitución de Liskov]]
     

@@ -28,3 +28,7 @@ Este apartado se refiere principalmente a las frases las cuales dan un impacto p
 ---
 9. *"No comentes el código mal escrito, rescríbelo"*
 	**-Brian W. Kernighan**
+---
+10. *"Las funciones que utilice punteros o referencias a clases base deben ser capaces de usar objetos de clases derivadas sin saberlo."*
+	**-Robert C. Martin**
+

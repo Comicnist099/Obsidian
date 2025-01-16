@@ -18,7 +18,7 @@ el _SPR_ esta estrechamente relacionado con otros principios como el [[LSP-Princ
 5. Cantidad elevada de métodos públicos.
 6. Excesivo numero de líneas de código.
 
-Consulta el [[SPR-Ejemplo]] para poder aprender mas a detalles de la lógica aplicada.
+Consulta el [[02-SPR-Ejemplo]] para poder aprender mas a detalles de la lógica aplicada.
 #### Frase
 *"Nunca debería haber mas de un motivo por el cual cambiar una clase o un modulo"*
 **-Robert C. Martin** 

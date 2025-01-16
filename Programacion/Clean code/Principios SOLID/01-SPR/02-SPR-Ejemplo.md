@@ -93,4 +93,4 @@
 
 })();
 ```
-3. Así que la solución fue hacer que la función `notifyClients()` tenga su propia clase correspondiente a correos creando `class Mailer`, crear otra clase `class CartBloc` además de crear un espacio también especifico para el producto ya que `ProductBloc` ahora solo tendría la funcionalidad de llamar otros procesos con la tranquilidad que cada funcionalidad tiene su espacio de modificación sin afectar alguna otra clase, inconscientemente se uso el concepto [[OCP- Principio de abierto y cerrado]].
+3. Así que la solución fue hacer que la función `notifyClients()` tenga su propia clase correspondiente a correos creando `class Mailer`, crear otra clase `class CartBloc` además de crear un espacio también especifico para el producto ya que `ProductBloc` ahora solo tendría la funcionalidad de llamar otros procesos con la tranquilidad que cada funcionalidad tiene su espacio de modificación sin afectar alguna otra clase, inconscientemente se uso el concepto [[01-OCP- Principio de abierto y cerrado]].
