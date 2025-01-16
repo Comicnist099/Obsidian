@@ -1,27 +1,21 @@
 Problemas similares, soluciones similares
 Ejemplo de buen nombre de funciones y coherencia 
-```
+```js
 const createProduct = ()=>{
-
 }
 const updateProduct = ()=>{
-
 }
 const deleteProduct = ()=>{
-
 }
 ```
 
 Ejemplo de mal nombre de funciones y coherencia 
-```
+```js
 const createNewUser = ()=>{
-
 }
 const modifyUser = ()=>{
-
 }
 const removeUser = ()=>{
-
 }
 ```
 
