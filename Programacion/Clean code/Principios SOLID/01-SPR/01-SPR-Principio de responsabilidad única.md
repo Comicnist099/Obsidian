@@ -7,7 +7,7 @@ La importancia de _SPR_ radica en su capacidad para mantener el código limpio y
 
 ---
 ### Relación con otros principios SOLID
-el _SPR_ esta estrechamente relacionado con otros principios como el [[LSP-Principio de sustitución de Liskov]] como también [[ISP- Principio de segregación de la interfaz]]. Estos principios trabajan en conjunto para crear un código limpio y eficiente.
+el _SPR_ esta estrechamente relacionado con otros principios como el [[01-LSP-Principio de sustitución de Liskov]] como también [[ISP- Principio de segregación de la interfaz]]. Estos principios trabajan en conjunto para crear un código limpio y eficiente.
 
 ---
 ### Como detectar violaciones de responsabilidad única
@@ -17,8 +17,11 @@ el _SPR_ esta estrechamente relacionado con otros principios como el [[LSP-Princ
 4.  Numero elevado de importaciones.
 5. Cantidad elevada de métodos públicos.
 6. Excesivo numero de líneas de código.
-
-Consulta el [[02-SPR-Ejemplo]] para poder aprender mas a detalles de la lógica aplicada.
+---
 #### Frase
 *"Nunca debería haber mas de un motivo por el cual cambiar una clase o un modulo"*
 **-Robert C. Martin** 
+
+---
+### Ejemplo
+Consulta el [[02-SPR-Ejemplo]] para poder aprender mas a detalles de la lógica aplicada.

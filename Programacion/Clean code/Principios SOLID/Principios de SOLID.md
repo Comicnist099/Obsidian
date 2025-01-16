@@ -6,7 +6,7 @@ Los **5 principios S.O.L.I.D.** de diseño de software son:
     
 - O – Open/Closed Principle [[01-OCP- Principio de abierto y cerrado]]
     
-- L – Liskov Substitution Principle [[LSP-Principio de sustitución de Liskov]]
+- L – Liskov Substitution Principle [[01-LSP-Principio de sustitución de Liskov]]
     
 - I – Interface Segregation Principle [[ISP- Principio de segregación de la interfaz]]
     

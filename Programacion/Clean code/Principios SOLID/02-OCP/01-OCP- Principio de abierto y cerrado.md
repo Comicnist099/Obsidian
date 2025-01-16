@@ -16,3 +16,6 @@ El principio de abierto-cerrado también se puede lograr muchas otras maneras, i
 * Cambios normalmente afectan nuestra clase o modulo.
 * Cuando una clase modulo afecta muchas capas (Presentación , almacenamiento ,etc.).
 
+---
+### Ejemplo
+Consulta el [[02-OCP-Ejemplo]] para poder aprender mas a detalles de la lógica aplicada.

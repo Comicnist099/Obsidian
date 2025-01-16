@@ -20,7 +20,7 @@ export class HttpClient {
 ```
 2. Esto es positivo debido a que si queremos hacer un cambio en el formato en el cual la aplicación hace llamadas [[API-REST]] se puede cambiar con facilidad su comportamiento
 ```ts
-//
+//01-HttpClient.ts
 
 //Importamos la clase
 import { HttpClient } from "./02-open-close-c";
