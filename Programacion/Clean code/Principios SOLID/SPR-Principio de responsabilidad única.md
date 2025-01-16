@@ -1,5 +1,5 @@
 *"Nunca debería haber mas de un motivo por el cual cambiar una clase o un modulo"*
-**-Robert C. Martin**
+**-Robert C. Martin** <span>
 
 **Tener una única responsabilidad !== "Hacer una sola cosa"**
 #### Como detectar violaciones de responsabilidad única

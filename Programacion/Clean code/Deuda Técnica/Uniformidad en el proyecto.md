@@ -1,33 +1,30 @@
-Problemas similares, soluciones similares
-Ejemplo de buen nombre de funciones y coherencia 
-```
-const createProduct = ()=>{
+## **Uniformidad en el proyecto**
+Es importante tener una consistencia en el proyecto tanto en el código como el proyecto en los nombres de los archivos.
 
+---
+### Ejemplos efectivos de una buena uniformidad
+#### Código
+* Buen nombre de funciones y coherencia
+```typescript
+const createProduct = ()=>{
 }
 const updateProduct = ()=>{
-
 }
 const deleteProduct = ()=>{
-
 }
 ```
-
-Ejemplo de mal nombre de funciones y coherencia 
-```
+* Mal nombre de funciones y coherencia 
+```typescript
 const createNewUser = ()=>{
-
 }
 const modifyUser = ()=>{
-
 }
 const removeUser = ()=>{
-
 }
 ```
-
-### Directorio
-La estructura del directorio debe de ser coherente:
-Porque **product-item.ts** no esta dentro de la carpeta?
+#### Directorio
+Es bueno hacerse preguntas cuando hay situaciones
+¿Porque **product-item.ts** no esta dentro de la carpeta?
 ![[Pasted image 20250110164638.png]]
 Mejor organización de directorio:
 ![[Pasted image 20250110164749.png]]

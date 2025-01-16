@@ -9,17 +9,17 @@ git tag <nombre>
 ```
 * **Crea un tag anotado con un mensaje:**
 ```powershell
-git tag -a <nombre> -m "<mensaje>
+git tag -a <nombre> -m "<mensaje>"
 ```
 ```powershell
 git tag -a v1.0.0 -m "Version 1.0.0 lista"
 ```
 * **Crea un tag en un commit pasado especificado por el hash:**
 ```powershell
-git tag -a <nombre> <hash> -m "<mensaje>
+git tag -a <nombre> <hash> -m "<mensaje>"
 ```
 ```powershell
-git tag -a v0.1.0 <hash>-m "Version Alpha de nuestra app
+git tag -a v0.1.0 <hash>-m "Version Alpha de nuestra app"
 ```
 
 
