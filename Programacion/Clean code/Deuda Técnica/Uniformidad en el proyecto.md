@@ -1,30 +1,33 @@
-## **Uniformidad en el proyecto**
-Es importante tener una consistencia en el proyecto tanto en el código como el proyecto en los nombres de los archivos.
-
----
-### Ejemplos efectivos de una buena uniformidad
-#### Código
-* Buen nombre de funciones y coherencia
-```typescript
+Problemas similares, soluciones similares
+Ejemplo de buen nombre de funciones y coherencia 
+```
 const createProduct = ()=>{
+
 }
 const updateProduct = ()=>{
+
 }
 const deleteProduct = ()=>{
+
 }
 ```
-* Mal nombre de funciones y coherencia 
-```typescript
+
+Ejemplo de mal nombre de funciones y coherencia 
+```
 const createNewUser = ()=>{
+
 }
 const modifyUser = ()=>{
+
 }
 const removeUser = ()=>{
+
 }
 ```
-#### Directorio
-Es bueno hacerse preguntas cuando hay situaciones
-¿Porque **product-item.ts** no esta dentro de la carpeta?
+
+### Directorio
+La estructura del directorio debe de ser coherente:
+Porque **product-item.ts** no esta dentro de la carpeta?
 ![[Pasted image 20250110164638.png]]
 Mejor organización de directorio:
 ![[Pasted image 20250110164749.png]]

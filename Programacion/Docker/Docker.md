@@ -2,7 +2,6 @@
 
 #### Antes de Docker
 Era un problema muy común errores en cuestiones de control de versiones de dependencias de terceros, como también de softwares.
-
 ![[Pasted image 20250112191752.png]]
 
 Una solución anterior era el uso de visual machines:
