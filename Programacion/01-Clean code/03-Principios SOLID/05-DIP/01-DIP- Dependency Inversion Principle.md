@@ -1,4 +1,4 @@
-## **Principio de inversión de dependencias**
+ ## **Principio de inversión de dependencias**
 La definición que dio originalmente _Uncle bob_ es:
 * Los módulos de alto nivel no deberían  depender de módulos de bajo nivel.
 * Ambos deberían depender de abstracciones.
