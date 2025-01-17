@@ -1,5 +1,7 @@
+## **Acopladores**
 Todos los olores de este grupo contribuyen al acoplamiento excesivo entre clases o muestra lo que sucede si el acoplamiento se reemplaza por una delegación excesiva. 
 
+---
 * ***Feature Envy**: Casi toda la funcionalidad de la clase lo hace otra clase ajena a la propia, Si las cosas cambian al mismo tiempo debes de mantenerlas en el mismo lugar, en pocas palabras cuando un método función o modulo hace mucha referencia de otro modulo, quizás esta factorización no es tan buena y se debe de colocar en el otro lugar. ![[Pasted image 20250111042814.png]]
 * **Intimidad inapropiada**: Cuando una clase usa campos internos de otra clase, si una clase pasa mucho tiempo con otras clases podría necesitar una refactorización y hacerlas independientes. *Las buenas clases deben de saber lo menos de otras clases* ya que son mas fácil de mantener y de usar.![[Pasted image 20250111043047.png]]
 * **Cadena de mensajes**: Cuando una función *'A'* llama a *'D'* y luego a *'C'* este ya es un problema ya que se realiza un canal de comunicación largo el cual la información esta viajando entre multiples métodos, la solución es ver si podemos eliminar todo ese puente y que se comuniquen directamente de una función *'A'* directamente a su destino sin un puente de otros métodos.![[Pasted image 20250111043416.png]]

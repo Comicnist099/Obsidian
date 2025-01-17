@@ -24,7 +24,7 @@ export class LocalDataBaseService {
 
 }
 ```
-2. Esto sucede ya que `05-dependency-b.ts` depende plenamente de `05-dependency-c.ts` con la importación `import { LocalDataBaseService } from "./05-dependency-c"` y crear un elemento nuevo en este caso `LocalDataBaseService` lo que hace que si o si  tanto `05-dependency-b.ts` y `05-dependency-c.ts` tengan un [[01-Tight|alto acoplamiento]].
+2. Esto sucede ya que `05-dependency-b.ts` depende plenamente de `05-dependency-c.ts` con la importación `import { LocalDataBaseService } from "./05-dependency-c"` y crear un elemento nuevo en este caso `LocalDataBaseService` lo que hace que si o si  tanto `05-dependency-b.ts` y `05-dependency-c.ts` tengan un [[01-Tight Coupling|alto acoplamiento]].
 ```ts
 //05-dependency-b.ts
 import { LocalDataBaseService } from "./05-dependency-c";

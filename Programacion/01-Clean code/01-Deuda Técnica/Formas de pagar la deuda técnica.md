@@ -10,7 +10,7 @@ Ya sea el cliente, el proveedor con recursos o el propio desarrollador dedicando
 * [[Estructura de clases]]
 * [[Comentarios]]
 * [[Uniformidad en el proyecto]]
-* [[01-Acrónimo STUPID]]
+* [[01-Index-STUPID]]
 * [[Principios de SOLID]]
 #### Frases:
 _"Código limpio es aquel que se ha escrito con la intención de que otra persona (o tu mismo en el futuro) lo entienda"
