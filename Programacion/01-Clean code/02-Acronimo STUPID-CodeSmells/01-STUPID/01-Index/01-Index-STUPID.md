@@ -5,7 +5,7 @@ La primera vez que escuche de este acrónimo me pareció muy gracioso, cuando fu
 ### Code smells
 6 code smells que debemos evitar.
 * S   –   **[[01-Singleton|Singleton]]**: Patron singleton.
-* T   –   **[[01-Tight Coupling|Tight Coupling]]** Coupling: Alto acoplamiento.
+* T   –   **[[01-Tight Coupling|Tight Coupling]]**: Alto acoplamiento.
 * U  –   **[[01-Untestability|Untestability]]**: Código no probable (unit test).
 * P   –   **[[01-Premature optimization|Premature optimization]]**: optimización prematuras
 * I    –   **[[01-Indescriptible Naming|Indescriptible Naming]]**: Nombre pocos descriptivos  
