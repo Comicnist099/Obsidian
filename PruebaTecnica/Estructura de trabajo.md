@@ -25,3 +25,4 @@ Este código esta estructurado de esta forma debido a que sigue la filosofía **
 
  _"Si quieres ser un programador productivo esfuérzate en escribir código legible."_
 	**-Robert C. Martin**
+Para mas información consultar [[Principios de SOLID]]

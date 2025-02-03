@@ -20,7 +20,8 @@
 | **Artillery**   | Herramienta de pruebas de carga para simular tráfico en la API.       |
 | **Winston**     | Librería para el registro de logs de la aplicación.                   |
 | **Express.js**  | Framework web para manejar solicitudes HTTP.                          |
-## ⬛Diagrama arquitectura
+## ⬛[[01-Excalidraw-Diagrama-arquitectura|Diagrama arquitectura]]
+
 
 ## ⬛Diagrama base de datos
 
