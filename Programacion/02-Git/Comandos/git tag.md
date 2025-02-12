@@ -21,5 +21,8 @@ git tag -a <nombre> <hash> -m "<mensaje>
 ```powershell
 git tag -a v0.1.0 <hash>-m "Version Alpha de nuestra app
 ```
-
+* **Hacer push de todos los tags**
+```powershell
+git push origin --tags
+```
 

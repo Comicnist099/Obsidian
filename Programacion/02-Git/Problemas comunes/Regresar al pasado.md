@@ -17,3 +17,4 @@ git reset --soft <commit-hash>
 ```powershell
 git push origin <branch-name> --force
 ```    
+ 

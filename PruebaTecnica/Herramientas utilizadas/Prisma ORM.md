@@ -1,5 +1,10 @@
 ## ⬛Prisma ORM
 Prisma ORM es una herramienta poderosa que simplifica la interacción con bases de datos en proyectos de TypeScript.
+**Generar cliente Prisma y migrar la base de datos:**
+```powershell
+npx prisma migrate dev --name init 
+npx prisma generate
+```
 ### 🔹 1. **Tipado estático y autocompletado con TypeScript**
 Prisma genera automáticamente un **cliente fuertemente tipado** basado en tu esquema de base de datos. Esto te ayuda a:  
 *  Evitar errores en consultas SQL.  
