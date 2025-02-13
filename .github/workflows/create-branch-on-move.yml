@@ -1,0 +1,23 @@
+name: Create Branch on Issue Move in Project
+
+on:
+  project_card:
+    types: [moved]
+
+jobs:
+  create-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create branch from issue when moved to In Progress
+        if: ${{ github.event.project_card.column_name == 'In Progress' }}
+        run: |
+          ISSUE_URL=${{ github.event.project_card.content_url }}
+          
+          ISSUE_NUMBER=$(echo $ISSUE_URL | sed 's/.*issues\///')
+          
+          git checkout -b "issue-${ISSUE_NUMBER}"
+          
+          git push -u origin "issue-${ISSUE_NUMBER}"
